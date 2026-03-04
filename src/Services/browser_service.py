@@ -21,3 +21,9 @@ class BrowserService:
         self.page = self.context.new_page()
         # Retorna a página já pronta para uso
         return self.page
+    
+    def close_browser(self):
+        # Fecha o navegador e o motor do Playwright
+        self.context.close()
+        self.browser.close()
+        self.playwright.stop()
