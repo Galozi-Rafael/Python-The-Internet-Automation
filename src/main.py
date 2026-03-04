@@ -1,8 +1,11 @@
-from Tests.test_01_abtest import run_TC01
+import Tests.test_01_abtest as TC01
+import Tests.test_02_add_elements as TC02
 
 def main():
 
-    run_TC01()
-    
+    TC01.run()
+
+    TC02.run()
+
 if __name__ == "__main__":
     main()
