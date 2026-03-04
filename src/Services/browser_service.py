@@ -3,8 +3,11 @@ from playwright.sync_api import sync_playwright, Page
 # Classe responsável por gerenciar o navegador usando Playwright
 class BrowserService:
 
-    def __init__(self, headless=True):
+    def __init__(self, headless=True, username=None, password=None):
         self.headless = headless
+        self.username = username
+        self.password = password
+
         self.playwright = None
         self.browser = None
         self.context = None
@@ -15,8 +18,17 @@ class BrowserService:
         self.playwright = sync_playwright().start()
         # Lança o navegador chromium
         self.browser = self.playwright.chromium.launch(headless=self.headless)
-        # Cria um novo contexto de navegador
-        self.context = self.browser.new_context()
+
+        # Verifica se as credenciais de autenticação HTTP foram fornecidas
+        if self.username and self.password:
+            # Cria um contexto de navegador com autenticação HTTP se as credenciais forem fornecidas
+            self.context = self.browser.new_context(
+                http_credentials={"username": self.username, "password": self.password}
+            )
+        else:
+            # Cria um novo contexto de navegador
+            self.context = self.browser.new_context()
+
         # Abre uma nova página no contexto do navegador
         self.page = self.context.new_page()
         # Retorna a página já pronta para uso
