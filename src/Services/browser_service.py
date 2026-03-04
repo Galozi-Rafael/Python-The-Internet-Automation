@@ -28,7 +28,7 @@ class BrowserService:
 
     def click(self, selector):
         # Clica no elemento identificado pelo seletor
-        self.page.locator.click(selector)
+        self.page.locator(selector).first.click()
 
     def count_elements(self, selector) -> int:
         # Conta o número de elementos que correspondem ao seletor

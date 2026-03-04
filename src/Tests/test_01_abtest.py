@@ -1,7 +1,7 @@
 from Services.browser_service import BrowserService
 
 # Metodo para executar o teste de A/B Test
-def run_TC01():
+def run():
     
     # Cria uma instância do BrowserService com headless=False para visualizar o navegador
     browser = BrowserService(headless=False)
