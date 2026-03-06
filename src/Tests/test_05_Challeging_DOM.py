@@ -25,7 +25,7 @@ def run():
 
     excel_service = ExcelService()
 
-    excel_service.save_to_excel(table_data, "challenging_dom_table.xlsx")
+    excel_service.save_to_excel(table_data, r"Data\challenging_dom_table.xlsx")
 
     browser.close_browser()
 
