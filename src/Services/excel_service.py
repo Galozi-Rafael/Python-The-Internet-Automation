@@ -5,7 +5,7 @@ class ExcelService:
 
     # Método para salvar dados em um arquivo Excel
     @staticmethod
-    def save_to_excel(self, data, file_name):
+    def save_to_excel(data, file_name):
 
         df = pd.DataFrame(data)
 
