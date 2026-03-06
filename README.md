@@ -30,7 +30,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Add/Remove Elements
 - [x] Basic Auth
 - [x] Broken Images
-- [ ] Challenging DOM
+- [x] Challenging DOM
 - [ ] Checkboxes
 - [ ] Context Menu
 - [ ] Digest Authentication
