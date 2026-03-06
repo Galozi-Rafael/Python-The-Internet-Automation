@@ -3,11 +3,12 @@ import Tests.test_02_add_elements as TC02
 import Tests.test_03_basic_auth as TC03 
 import Tests.test_04_broken_images as TC04
 import Tests.test_05_Challeging_DOM as TC05
+import Tests.test_06_checkboxes as TC06
 import Tests.test_08_digest_auth as TC08
 
 
 def main():
-
+    
     TC01.run()
 
     TC02.run()
@@ -19,6 +20,8 @@ def main():
     TC05.run()
 
     TC08.run()
+
+    TC06.run()
 
 if __name__ == "__main__":
     main()
