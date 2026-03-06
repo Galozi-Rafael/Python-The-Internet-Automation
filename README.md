@@ -31,7 +31,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Basic Auth
 - [x] Broken Images
 - [x] Challenging DOM
-- [ ] Checkboxes
+- [x] Checkboxes
 - [ ] Context Menu
 - [x] Digest Authentication
 - [ ] Disappearing Elements
