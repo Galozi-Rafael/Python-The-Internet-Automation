@@ -33,7 +33,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Challenging DOM
 - [ ] Checkboxes
 - [ ] Context Menu
-- [ ] Digest Authentication
+- [x] Digest Authentication
 - [ ] Disappearing Elements
 - [ ] Drag and Drop
 - [ ] Dropdown
