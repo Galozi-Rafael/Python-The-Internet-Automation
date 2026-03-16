@@ -5,23 +5,26 @@ import Tests.test_04_broken_images as TC04
 import Tests.test_05_Challeging_DOM as TC05
 import Tests.test_06_checkboxes as TC06
 import Tests.test_08_digest_auth as TC08
+import Tests.test_07_context_menu as TC07
 
 
 def main():
     
-    TC01.run()
+    #TC01.run()
 
-    TC02.run()
+    #TC02.run()
 
-    TC03.run()
+    #TC03.run()
 
-    TC04.run()
+    #TC04.run()
 
-    TC05.run()
+    #TC05.run()
 
-    TC08.run()
+    #TC08.run()
 
-    TC06.run()
+    #TC06.run()
+
+    TC07.run()
 
 if __name__ == "__main__":
     main()

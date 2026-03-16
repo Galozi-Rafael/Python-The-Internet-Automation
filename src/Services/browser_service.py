@@ -42,6 +42,10 @@ class BrowserService:
         # Clica no elemento identificado pelo seletor
         self.page.locator(selector).first.click()
 
+    def right_click(self, selector):
+        #Executa clique com botão direito no elemento.
+        self.page.locator(selector).first.click(button="right")
+
     def count_elements(self, selector) -> int:
         # Conta o número de elementos que correspondem ao seletor
         return self.page.locator(selector).count()
