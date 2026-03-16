@@ -19,12 +19,12 @@ def main():
     #TC04.run()
 
     #TC05.run()
-
-    #TC08.run()
-
+    
     #TC06.run()
 
     TC07.run()
+
+    #TC08.run()
 
 if __name__ == "__main__":
     main()
