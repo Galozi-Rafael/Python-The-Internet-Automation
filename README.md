@@ -32,7 +32,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Broken Images
 - [x] Challenging DOM
 - [x] Checkboxes
-- [ ] Context Menu
+- [x] Context Menu
 - [x] Digest Authentication
 - [ ] Disappearing Elements
 - [ ] Drag and Drop
