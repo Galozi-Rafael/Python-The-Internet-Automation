@@ -6,6 +6,7 @@ import Tests.test_05_Challeging_DOM as TC05
 import Tests.test_06_checkboxes as TC06
 import Tests.test_08_digest_auth as TC08
 import Tests.test_07_context_menu as TC07
+import Tests.test_09_disappearing_elements as TC09
 
 
 def main():
@@ -22,9 +23,11 @@ def main():
     
     #TC06.run()
 
-    TC07.run()
+    #TC07.run()
 
     #TC08.run()
+
+    TC09.run()
 
 if __name__ == "__main__":
     main()
