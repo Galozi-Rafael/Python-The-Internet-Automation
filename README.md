@@ -34,7 +34,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Checkboxes
 - [x] Context Menu
 - [x] Digest Authentication
-- [ ] Disappearing Elements
+- [x] Disappearing Elements
 - [ ] Drag and Drop
 - [ ] Dropdown
 - [ ] Dynamic Content
