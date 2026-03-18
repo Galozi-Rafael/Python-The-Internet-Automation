@@ -49,6 +49,10 @@ class BrowserService:
     def count_elements(self, selector) -> int:
         # Conta o número de elementos que correspondem ao seletor
         return self.page.locator(selector).count()
+    
+    def drag_and_drop(self, source_selector, target_selector):
+        # Realiza a ação de arrastar e soltar do elemento de origem para o elemento de destino
+        self.page.locator(source_selector).drag_to(self.page.locator(target_selector))
 
     def close_browser(self):
         # Fecha o navegador e o motor do Playwright
