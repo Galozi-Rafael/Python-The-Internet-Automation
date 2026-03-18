@@ -7,6 +7,7 @@ import Tests.test_06_checkboxes as TC06
 import Tests.test_08_digest_auth as TC08
 import Tests.test_07_context_menu as TC07
 import Tests.test_09_disappearing_elements as TC09
+import Tests.test_10_drag_and_drop as TC10
 
 
 def main():
@@ -27,7 +28,9 @@ def main():
 
     #TC08.run()
 
-    TC09.run()
+    #TC09.run()
+
+    TC10.run()
 
 if __name__ == "__main__":
     main()
