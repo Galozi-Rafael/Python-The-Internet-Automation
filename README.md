@@ -35,7 +35,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Context Menu
 - [x] Digest Authentication
 - [x] Disappearing Elements
-- [ ] Drag and Drop
+- [x] Drag and Drop
 - [ ] Dropdown
 - [ ] Dynamic Content
 - [ ] Dynamic Controls
