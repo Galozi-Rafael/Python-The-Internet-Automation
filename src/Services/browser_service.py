@@ -54,6 +54,10 @@ class BrowserService:
         # Realiza a ação de arrastar e soltar do elemento de origem para o elemento de destino
         self.page.locator(source_selector).drag_to(self.page.locator(target_selector))
 
+    def select_by_text(self, selector, text):
+        # Seleciona uma opção em um elemento <select> com base no texto visível
+        self.page.locator(selector).select_option(label=text)
+
     def close_browser(self):
         # Fecha o navegador e o motor do Playwright
         self.context.close()
