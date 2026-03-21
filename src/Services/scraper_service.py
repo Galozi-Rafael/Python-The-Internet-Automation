@@ -33,3 +33,26 @@ class ScraperService:
             table_data.append(row_data)
 
         return table_data
+    
+
+    # Função para extrair texto dinâmico de um elemento usando um seletor
+    @staticmethod
+    def extract_dynamic_text(page, selector, locator):
+        # Localiza o elemento usando o seletor e extrai o texto
+        elements = page.locator(selector)
+        
+        content_data = []
+
+        for i in range(elements.count()):
+
+            element = elements.nth(i)
+
+            img_src = element.locator("img").first.get_attribute("src") if element.locator("img").count() > 0 else None
+            text_content = element.locator(locator).inner_text().strip() if element.locator(locator).count() > 0 else None
+
+            content_data.append({
+                "text": text_content,
+                "image_src": img_src
+            })
+
+        return content_data
