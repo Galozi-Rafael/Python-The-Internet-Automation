@@ -37,7 +37,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [x] Disappearing Elements
 - [x] Drag and Drop
 - [x] Dropdown
-- [ ] Dynamic Content
+- [x] Dynamic Content
 - [ ] Dynamic Controls
 - [ ] Dynamic Loading
 - [ ] Entry Ad
