@@ -9,7 +9,7 @@ import Tests.test_07_context_menu as TC07
 import Tests.test_09_disappearing_elements as TC09
 import Tests.test_10_drag_and_drop as TC10
 import Tests.test_11_dropdown as TC11
-
+import Tests.test_12_dynamic_content as TC12
 
 def main():
     
@@ -33,7 +33,11 @@ def main():
 
     #TC10.run()
 
-    TC11.run()
+    #TC11.run()
+
+    TC12.run()
+
+
 
 if __name__ == "__main__":
     main()
