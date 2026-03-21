@@ -73,8 +73,16 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 
 
 ## Arquitetura de pasta do projeto
-``` mermaid
+```mermaid
 flowchart LR
 
+A[Python-The-Internet-Automation] --> B[src]
+A-->C[.gitignore]
+A-->D[README.md]
+
+B-->E[Data]
+B-->F[Services]
+B-->G[Tests]
+B-->H[main.py]
 
 ```
