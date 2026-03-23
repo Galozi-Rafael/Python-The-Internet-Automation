@@ -11,6 +11,7 @@ import Tests.test_10_drag_and_drop as TC10
 import Tests.test_11_dropdown as TC11
 import Tests.test_12_dynamic_content as TC12
 import Tests.test_13_dynamic_controls as TC13
+import Tests.test_14_dynamic_loading as TC14
 
 def main():
     
@@ -38,7 +39,9 @@ def main():
 
     #TC12.run()
 
-    TC13.run()
+    #TC13.run()
+
+    TC14.run()
 
 
 if __name__ == "__main__":
