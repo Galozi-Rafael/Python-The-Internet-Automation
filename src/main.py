@@ -12,6 +12,7 @@ import Tests.test_11_dropdown as TC11
 import Tests.test_12_dynamic_content as TC12
 import Tests.test_13_dynamic_controls as TC13
 import Tests.test_14_dynamic_loading as TC14
+import Tests.test_15_entry_ad as TC15
 
 def main():
     
@@ -41,7 +42,9 @@ def main():
 
     #TC13.run()
 
-    TC14.run()
+    #TC14.run()
+
+    TC15.run()
 
 
 if __name__ == "__main__":
