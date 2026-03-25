@@ -15,6 +15,7 @@ import Tests.test_14_dynamic_loading as TC14
 import Tests.test_15_entry_ad as TC15
 import Tests.test_16_exit_intent as TC16
 import Tests.test_43_typos as TC43
+import Tests.test_20_forgot_password as TC20
 
 def main():
     
@@ -50,7 +51,9 @@ def main():
 
     #TC16.run()
 
-    TC43.run()
+    TC20.run()
+
+    #TC43.run()
 
 
 if __name__ == "__main__":
