@@ -23,6 +23,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 
 1. **Python**;
 2. **Playwright**;
+3. **Pyautogui**;
 
 ## Checklist de cenários implementados
 
