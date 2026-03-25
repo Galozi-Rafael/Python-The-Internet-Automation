@@ -69,7 +69,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [ ] Slow Resources
 - [ ] Sortable Data Tables
 - [ ] Status Codes
-- [ ] Typos
+- [x] Typos
 - [ ] WYSIWYG Editor
 
 
