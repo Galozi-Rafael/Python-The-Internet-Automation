@@ -16,6 +16,7 @@ import Tests.test_15_entry_ad as TC15
 import Tests.test_16_exit_intent as TC16
 import Tests.test_43_typos as TC43
 import Tests.test_20_forgot_password as TC20
+import Tests.test_21_form_authentication as TC21
 
 def main():
     
@@ -51,7 +52,9 @@ def main():
 
     #TC16.run()
 
-    TC20.run()
+    #TC20.run()
+
+    TC21.run()
 
     #TC43.run()
 
