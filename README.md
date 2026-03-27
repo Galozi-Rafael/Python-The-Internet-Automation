@@ -47,7 +47,7 @@ Cada um dos cenários terá uma explicação mais detalhada no [Readme]() que co
 - [ ] File Upload
 - [ ] Floating Menu
 - [x] Forgot Password
-- [ ] Form Authentication
+- [x] Form Authentication
 - [ ] Frames
 - [ ] Geolocation
 - [ ] Horizontal Slider
